@@ -1,0 +1,27 @@
+// common.scss
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;500;700;900&family=Noto+Serif+KR:wght@300;500;700;900&display=swap');
+
+@import url(icomoon.css);
+@font-face {
+    font-family: 'Quicksand';
+    src: url(../fonts/Quicksand_Bold.eot), 
+         url(../fonts/Quicksand_Bold.ttf), 
+         url(../fonts/Quicksand_Bold.otf);
+        /*url(../fonts/Quicksand_Bold.woff)*/  
+}
+html, body{
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 300;
+    font-size: 12px;
+    // font-size: 13.33px;
+    line-height: 1.43 ; 
+    overflow-x: hidden;
+}
+body{}
+h1,h2,h3,h4,h5,dt,address{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+h1,h2,h3,h4,h5,p,li,dt,dd,address{
+    font-size: 1.2rem;
+    overflow: hidden;
+}
